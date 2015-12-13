@@ -13,14 +13,8 @@ import com.example.repository.CustomerRepository;
 @Transactional
 public class CustomerService {
 
-//	@Autowired
-//	CustomerRepository customerRepository;
-	private final CustomerRepository customerRepository;
-
 	@Autowired
-	public CustomerService(CustomerRepository customerRepository) {
-		this.customerRepository = customerRepository;
-	}
+	CustomerRepository customerRepository;
 
 	public List<Customer> getCustomers() {
 		return customerRepository.selectAll();
