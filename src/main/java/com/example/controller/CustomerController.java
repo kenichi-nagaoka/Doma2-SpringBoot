@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.model.Customer;
-import com.example.service.CustomerService;
+import com.example.domain.model.Customer;
+import com.example.domain.service.CustomerService;
 
 @RestController
 public class CustomerController {
