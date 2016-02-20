@@ -1,1 +1,1 @@
-# Doma2-SpringBootサンプル
+# Doma2-SpringBoot Sample
